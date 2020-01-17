@@ -1,17 +1,23 @@
 {% extends 'base.html' %}
 {% block content %}
-	<div class="limiter">
-		<div class="container-login100">
-			<div class="wrap-login100 p-t-50 p-b-90">
-				<span class="login100-form-title p-b-51">
-					Welcome!!<br>
-				</span>
-				<div class="container-login100-form-btn m-t-17">
-					<button class="login100-form-btn">
-						<a class="login100-form-btn" href="/logout">Logout</a>
-					</button>
-				</div>
-			</div>
-		</div>
-	</div>
+<table style="width: 100%">
+  <tr>
+    <th class="list-cell order-number">lp.</th>
+    <th class="list-cell email">E-mail</th>
+    <th class="list-cell username-cell">Użytkownik</th>
+    <th>Data dołączenia</th>
+  </tr>
+  {% for user in user_loader() %}
+  <tr>
+    <td class="list-cell order-number">{% print(user.id) %}</td>
+    <td class="list-cell email">{% print(user.email) %}</td>
+    <td class="list-cell username-cell">{% print(user.username) %}</td>
+    <td><!-- {% print(user.joindate) %} --> ---</td>
+  </tr>
+  {% endfor %}
+</table>
+
+<button>
+  <a class="logout" href="{{ url_for('logout')}}">Wyloguj</a>
+</button>
 {% endblock %}
