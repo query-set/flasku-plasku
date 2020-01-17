@@ -1,0 +1,95 @@
+body
+{
+   background-color: #e5e884;
+}
+
+#container
+{
+    width:700px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px lightgray solid;
+    align-self: auto;
+    text-align: center;
+    background-color: white;
+}
+
+#header
+{
+    height: 80px;
+    /* width: 1170px; */
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e5e884;
+    text-align: center;
+    padding: 15px;
+    color: darkslategray;
+    letter-spacing: 2px;
+
+}
+#register
+{
+    /* float: left; */
+    width: 300px;
+    min-height: 650px;
+    text-align: center;
+    color: darkslategray;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logoTxt
+{
+    /* float: left; */
+    width: 570px;
+    min-height: 550px;
+    align-self: center;
+    text-align: justify;
+    text-align: center;
+    font-family: cursive;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+
+
+}
+#logIn
+{
+    /* float: left; */
+    width: 300px;
+    min-height: 650px;
+    text-align: center;
+    color: darkslategray;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3 {
+    text-align: center;
+    color: darkslategray;
+    letter-spacing: 1px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footer
+{
+    clear: both;
+    height: 20px;
+    background-color: darkgrey;
+    padding: 15px;
+    width: 1170px;
+}
+
+ul {
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+}
+
+button {
+    width: 300px;
+    height: 80px;
+    margin: 20px;
+    background-color: #e5e884;
+}

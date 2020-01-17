@@ -1,0 +1,88 @@
+body, html
+{
+    margin:0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, serif;
+}
+
+.title-section
+{
+    height: 200px;
+    width: 100vw;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.list-container
+{
+    width: 100vw;
+    padding-top: 45px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list
+{
+    width: 50vw;
+    min-width: 430px;
+}
+
+.list-row
+{
+    width: 50vw;
+    height: 40px;
+    min-width: 430px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+}
+
+.list-row:nth-child(even)
+{
+    background-color: rgba(255, 230, 89, 0.562);
+}
+
+.list-row:nth-child(odd)
+{
+    background-color: rgba(247, 202, 0, 0.397);
+}
+
+.list-row:first-child
+{
+ background-color: rgba(255, 238, 0, 0.575);
+ font-weight: bold;
+ font-size: 18px;
+}
+
+.list-cell
+{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 3;
+    justify-content: center;
+}
+
+.order-number
+{
+    flex: 1;
+}
